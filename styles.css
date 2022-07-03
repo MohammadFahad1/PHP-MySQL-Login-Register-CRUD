@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif, Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    position: absolute;
+    right: 10px;
+}
+}
+.container{
+    border: 1px solid grey;
+    padding: 0;
+}
+.content{
+    min-height: 80vh;
+    padding: 10px;
+}
+tr> th{
+    text-align: center!important;
+}
+tr> td:nth-child(1),tr> td:nth-child(5) {
+    text-align: center!important;
+}
